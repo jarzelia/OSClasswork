@@ -1,0 +1,17 @@
+[ewang@mercury Assign2]$ ./sort
+Area code 103 appears 87 times.
+Area code 215 appears 107 times.
+Area code 220 appears 114 times.
+Area code 316 appears 96 times.
+Area code 403 appears 100 times.
+Area code 508 appears 101 times.
+Area code 579 appears 103 times.
+Area code 604 appears 86 times.
+Area code 617 appears 88 times.
+Area code 783 appears 77 times.
+
+[ewang@mercury Assign2]$ ./grep1
+grep found it 28 times.
+
+[ewang@mercury Assign2]$ ./grep2
+^C

@@ -1,0 +1,16 @@
+Eric Wang
+eric_wang1@student.uml.edu
+
+Homework 2 Write-up
+
+I have completed this assignment and I believe I should get a 100.
+
+This was built up from the last assignment, but with no signal handling and more pipe management with 
+openings and closings.  After the first sort was completed, it was only a couple of minor changes to
+make grep1 and grep2.
+
+sort and grep1(the smaller one) ran as expected.  However, grep2 locked up.  This was because the 
+data to go through was 250 times the size and overloaded the buffer that was used in the child.
+This meant that the parent would keep feeding in more data, but the child would be unable to process it.
+Then, the pipes would be overloaded and they would both lock each other out.  This issue was expected
+and warned about.

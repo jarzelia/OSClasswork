@@ -1,0 +1,18 @@
+Eric Wang
+eric_wang1@student.uml.edu
+
+Homework 5 Write-up
+
+Best 1MB: 8 failed, 492 out of 500 allocated.
+Best 512KB: 123 failed, 377 out of 500 allocated.
+First 1MB: 10 failed, 490 out of 500 allocated.
+First 512KB: 126 failed, 374 out of 500 allocated.
+
+I was unable to do the Buddy in the time given.  After testing the compiler and seeing that it didn't accept
+ciel or log functions available in math, I said screw it.  I realize that bit shifting would have been an
+easier way of getting the right sizes.
+
+The first was an easy implementation and best was first, but with additional loops when you are looking for
+the next space to put the info in.
+
+As a result, I believe that I should get a 70 , since I completed two formats and made some progress on best.

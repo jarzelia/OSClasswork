@@ -1,0 +1,51 @@
+[ewang@mercury Assign1]$ ./assign1e
+
+This is the Parent process report:
+
+PARENT PROG:  Process ID is:		9709
+    PARENT PROC:  Process parent ID is:	9671
+    PARENT PROC:  Real UID is:		39125
+    PARENT PROC:  Real GID is:		2016
+    PARENT PROC:  Effective UID is:		39125
+    PARENT PROC:  Effective GID is:		2016
+    PARENT PROC:  Process priority is:	0
+PARENT PROC: Created child with pid: 9710
+
+This is the Child process report:
+
+PARENT PROG:  Process ID is:		9710
+    CHILD PROC:  Process parent ID is:	9709
+    CHILD PROC:  Real UID is:		39125
+    CHILD PROC:  Real GID is:		2016
+    CHILD PROC:  Effective UID is:		39125
+    CHILD PROC:  Effective GID is:		2016
+    CHILD PROC:  Process priority is:	0
+Child to be killed.
+Starting assignment program.
+
+This is the Prof process report:
+
+PROF PROG:  Process ID is:		9710
+PROF PROG:  Process parent ID is:	9709
+PROF PROG:  Real UID is:		39125
+PROF PROG:  Real GID is:		2016
+PROF PROG:  Effective UID is:		39125
+PROF PROG:  Effective GID is:		2016
+PROF PROG:  Process priority is:	5
+
+PROF PROG: going into and endless loop, use
+ kill 9710   to kill me now
+
+^Z
+[1]+  Stopped                 ./assign1e
+[ewang@mercury Assign1]$ kill 9710
+[ewang@mercury Assign1]$ fg
+./assign1e
+
+
+PROF PROG: Awake in handler - You Got Me With Signal
+ Number 15 after spinning for more
+ than 1179922030  loop iterations, goodbye
+
+PARENT PROC: Child with pid 9710 killed with the following information.
+Exit code: 1

@@ -1,0 +1,20 @@
+Eric Wang
+eric_wang1@student.uml.edu
+
+Homework 6 Write-up
+
+I have completed this assignment fully and I believe that I should get a 100.
+
+The code is largely based on what we saw in class, with some modifications.  It works and does 
+everything correctly.  
+
+There are test directories and links included.
+
+TEST TYPES:
+regular file is any one of the programs
+directory is . or the included test folder
+symlink is the shortcut
+block device I ran this program on /dev/sda
+char device I ran this program on /dev/null
+
+The output is included in output.txt

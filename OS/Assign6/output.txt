@@ -1,0 +1,110 @@
+
+FILENAME:		output.txt
+TYPE:			regular file
+PERMISSIONS:		rw-------
+OWNER:			ewang
+GROUP:			cs2016
+LAST MODIFIED:		Thu Dec  8 14:11:04 2016
+LINKS:			1
+FILE SIZE:		0
+INODE:			10166132025634427031
+
+
+FILENAME:		Makefile
+TYPE:			regular file
+PERMISSIONS:		rw-r--r--
+OWNER:			ewang
+GROUP:			cs2016
+LAST MODIFIED:		Thu Dec  8 14:06:29 2016
+LINKS:			1
+FILE SIZE:		142
+INODE:			12669867878816469140
+
+
+FILENAME:		as6
+TYPE:			regular file
+PERMISSIONS:		rwx------
+OWNER:			ewang
+GROUP:			cs2016
+LAST MODIFIED:		Thu Dec  8 14:10:46 2016
+LINKS:			1
+FILE SIZE:		10555
+INODE:			10623547417299902724
+
+
+FILENAME:		.
+TYPE:			directory
+PERMISSIONS:		rwxr-wr-x
+OWNER:			ewang
+GROUP:			cs2016
+LAST MODIFIED:		Thu Dec  8 14:11:04 2016
+LINKS:			3
+FILE SIZE:		4096
+INODE:			9765291826563804735
+
+
+FILENAME:		..
+TYPE:			directory
+PERMISSIONS:		rwxr-wr-x
+OWNER:			ewang
+GROUP:			cs2016
+LAST MODIFIED:		Thu Dec  8 13:59:44 2016
+LINKS:			7
+FILE SIZE:		4096
+INODE:			10573696689599642903
+
+
+FILENAME:		assign6.c
+TYPE:			regular file
+PERMISSIONS:		rw-r--r--
+OWNER:			ewang
+GROUP:			cs2016
+LAST MODIFIED:		Thu Dec  8 14:10:42 2016
+LINKS:			1
+FILE SIZE:		5271
+INODE:			11924603179422176978
+
+
+FILENAME:		test
+TYPE:			directory
+PERMISSIONS:		rwxr-wr-x
+OWNER:			ewang
+GROUP:			cs2016
+LAST MODIFIED:		Thu Dec  8 13:59:44 2016
+LINKS:			2
+FILE SIZE:		4096
+INODE:			9962574847616853048
+
+
+FILENAME:		/dev/sda
+TYPE:			block device
+PERMISSIONS:		rw-rw----
+OWNER:			root
+GROUP:			disk
+LAST MODIFIED:		Thu Oct 20 23:49:51 2016
+LINKS:			1
+MAJOR, MINOR:		8 , 0
+INODE:			6424
+
+
+FILENAME:		/dev/null
+TYPE:			char device
+PERMISSIONS:		rw-rw-rw-
+OWNER:			root
+GROUP:			root
+LAST MODIFIED:		Wed Mar  9 16:15:40 2016
+LINKS:			1
+MAJOR, MINOR:		1 , 3
+INODE:			3943
+
+
+FILENAME:		testlink
+TYPE:			sym link
+PERMISSIONS:		rwxrwwrwx
+OWNER:			ewang
+GROUP:			cs2016
+LAST MODIFIED:		Thu Dec  8 14:18:17 2016
+LINKS:			1
+FILE SIZE:		3
+INODE:			10163252088295446932
+

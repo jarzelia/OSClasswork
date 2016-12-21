@@ -1,0 +1,17 @@
+Eric Wang
+eric_wang1@student.uml.edu
+
+Homework 1 Write-up
+
+I have completed this assignment to the best of my ability, and I believe I should get a 100.
+
+This was a modification of assignment 7 from the architecture course along with some additions with 
+from the assign1.c file given.  I took the signal handling code from there.  The child shutdown worked
+without a problem and was not an issue.
+
+However, I did run into some issues with the professor's program.  I was unable to kill the program
+from inside of the original code.  However, if I suspended it, then input the kill command, everything
+worked out as expected.  
+
+output1.txt shows the program timing out because it wouldn't accept the kill, but output2.txt
+shows it working after the suspension/reactivation.

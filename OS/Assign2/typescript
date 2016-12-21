@@ -1,0 +1,19 @@
+Script started on Tue 06 Dec 2016 11:35:12 PM EST
+]0;ewang@mercury:~/OS/Assign2[?1034h[ewang@mercury Assign2]$ ./sort
+Area code 103 appears 87 times.
+Area code 215 appears 107 times.
+Area code 220 appears 114 times.
+Area code 316 appears 96 times.
+Area code 403 appears 100 times.
+Area code 508 appears 101 times.
+Area code 579 appears 103 times.
+Area code 604 appears 86 times.
+Area code 617 appears 88 times.
+Area code 783 appears 77 times.
+]0;ewang@mercury:~/OS/Assign2[ewang@mercury Assign2]$ ./grep1
+grep found it 28 times.
+]0;ewang@mercury:~/OS/Assign2[ewang@mercury Assign2]$ ./grep2
+^C
+]0;ewang@mercury:~/OS/Assign2[ewang@mercury Assign2]$ exit
+
+Script done on Tue 06 Dec 2016 11:35:31 PM EST

@@ -1,0 +1,45 @@
+[ewang@mercury Assign1]$ ./assign1e
+
+This is the Parent process report:
+
+PARENT PROG:  Process ID is:		30472
+    PARENT PROC:  Process parent ID is:	30299
+    PARENT PROC:  Real UID is:		39125
+    PARENT PROC:  Real GID is:		2016
+    PARENT PROC:  Effective UID is:		39125
+    PARENT PROC:  Effective GID is:		2016
+    PARENT PROC:  Process priority is:	0
+PARENT PROC: Created child with pid: 30473
+
+This is the Child process report:
+
+PARENT PROG:  Process ID is:		30473
+    CHILD PROC:  Process parent ID is:	30472
+    CHILD PROC:  Real UID is:		39125
+    CHILD PROC:  Real GID is:		2016
+    CHILD PROC:  Effective UID is:		39125
+    CHILD PROC:  Effective GID is:		2016
+    CHILD PROC:  Process priority is:	0
+Child to be killed.
+Starting assignment program.
+
+This is the Prof process report:
+
+PROF PROG:  Process ID is:		30473
+PROF PROG:  Process parent ID is:	30472
+PROF PROG:  Real UID is:		39125
+PROF PROG:  Real GID is:		2016
+PROF PROG:  Effective UID is:		39125
+PROF PROG:  Effective GID is:		2016
+PROF PROG:  Process priority is:	5
+
+PROF PROG: going into and endless loop, use
+ kill 30473   to kill me now
+
+kill 30473
+PROF PROG: timed out after 20 billion iterations
+PARENT PROC: Child with pid 30473 killed with the following information.
+Exit code: 2
+[ewang@mercury Assign1]$ kill 30473
+bash: kill: (30473) - No such process
+
